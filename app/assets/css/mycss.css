@@ -1,0 +1,41 @@
+/* 幻灯 */
+.slider-box-1-js{height:500px;position:relative;margin:30px auto;}
+.slider-box-1-js .slider{height:100%;position:relative;}
+.slider-box-1-js .item{display:block;overflow:hidden;height:100%;width:100%;overflow:hidden;}
+.slider-box-1-js .img-box{display:block;width:100%;height:100%;}
+.slider-box-1-js img{width:100%;}
+.slider-box-1-js .btn-collection{width:280px;height:80px;cursor:pointer;line-height:80px;text-align:center;position:absolute;right:-45px;padding-right:40px;border-right:5px solid #FC5682;bottom:50px;z-index:100;}
+.slider-box-1-js .btn-collection i{width:40px;margin-right:20px;height:40px;display:inline-block;background-color:#000;color:#fff;font-size:32px;text-align:center;line-height:40px;z-index:200;position:relative;}
+.slider-box-1-js .btn-collection .text{font-size:28px;height:40px;color:#454545;display:inline-block;position:relative;z-index:100;}
+.slider-box-1-js .btn-collection:hover .text{color:#FC5682;}
+.slider-box-1-js .btn-collection .mask-bg{background-color:#fff;opacity:0.8;position:absolute;left:0;top:0;width:100%;height:100%;}
+
+/* 重写 */
+header{box-shadow:0 1px 3px rgba(0,0,0,0.2);}
+.index-box .about{background:url(../img/index/about.jpg) no-repeat;}
+.index-box .details{background:url(../img/index/9.png) no-repeat;}
+.index-box .video{background:url(../img/index/img-41.jpg) no-repeat;}
+.index-box .filter span{background:url(../img/index/bf.png) no-repeat;}
+
+.container .pic01{background: url(../img/about/1.jpg) center center;}
+.container .pic02{background: url(../img/about/2.jpg) center center;}
+.container .pic03{background: url(../img/about/3.jpg) center center;}
+.container .pic04{background: url(../img/about/4.jpg) center center;}
+.container .pic05{background: url(../img/about/5.jpg) center center;}
+.container .pic06{background: url(../img/about/6.jpg) center center;}
+
+.container .sixteen.columns{background:none;}
+.container .columns{margin-left:0;margin-rgiht:0;}
+.container .about-us{margin-left:0;margin-right:0;line-height:26px;}
+
+.container.contact div{font-size:18px;margin-bottom:20px;}
+.container.contact li{line-height:16px;}
+.container.contact{margin-top:40px;padding-top:40px;border-top:1px solid #ededed;}
+
+.breadcrumbs ul li{margin-left:0;}
+.breadcrumbs ul li a{color:#333;}
+.breadcrumbs b{padding:0 10px;}
+.breadcrumbs span{color:#999;}
+.container.contact li{font-size:14px;}
+.container.one-page{height:500px;}
+.landing{margin-bottom:0;}

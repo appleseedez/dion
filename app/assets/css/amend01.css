@@ -1,0 +1,464 @@
+/* 首页 */
+.container{
+	font-family: "微软雅黑";
+}
+
+.container .twelve.columns{
+	margin: 0;
+	width: 1020px;
+}
+.container .columns{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.index-box{
+	width: 340px;
+	float: left;
+
+	font-family: "微软雅黑";
+	padding-top: 10px;
+}
+
+.index-box .more{
+	float: right;
+	color:#999;
+}
+
+.index-box .more:hover{
+	color: #E54141;
+}
+
+.index-box .tit{
+	font-size: 18px;
+}
+
+.index-box .tit2{
+	color:#999;
+}
+
+.index-box .about{
+	height: 260px;
+	margin-top: 20px;
+	padding-left: 200px;
+	background:url(../images/index/about.jpg) no-repeat ;
+	text-indent:2em;
+	text-align:left;
+}
+
+.index-box .details{
+	height: 260px;
+	margin-top: 20px;
+	padding-left: 200px;
+	background:url(../images/index/9.png) no-repeat ;
+}
+
+.index-box .details span{
+	display: block;
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.index-box .details li{
+	display: block;
+	height: 30px;
+	border-bottom: 1px dashed #666;
+	line-height: 40px;
+}
+
+.index-box .video{
+	margin-top:55px; 
+	height:220px; 
+	width:340px;
+	background:url(../images/index/img-41.jpg) no-repeat ;
+}
+
+.index-box .filter{
+	position: relative;
+	height:220px; 
+	background: rgba(0,0,0,0.7);
+}
+.index-box .filter span{
+	position: absolute;
+	top:85px;
+	left: 145px;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	background:url(../images/index/bf.png) no-repeat ;
+}
+
+
+.footer-bottom{
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+}
+.footer-bottom span{
+	margin: 0 30px;
+}
+.footer-bottom a{
+	color: #999;
+}
+
+/* 关于我们 */
+.container .about-us{
+	margin:30px 10px 0px 10px;
+	white-space:pre-wrap;
+	font-size: 14px;
+}
+.container .ul-pic li{
+	display: block;
+	width: 400px;
+	height:240px;
+	float: left;
+}
+.container .pic01{background: url(../images/about/1.jpg) center center ;}
+.container .pic02{background:url(../images/about/2.jpg) center center ;}
+.container .pic03{background:url(../images/about/3.jpg) center center ;}
+.container .pic04{background:url(../images/about/4.jpg) center center ;}
+.container .pic05{background:url(../images/about/5.jpg) center center ;}
+.container .pic06{background:url(../images/about/6.jpg) center center ;}
+
+.container.contact{
+	font-family: "微软雅黑";
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-left: 10px;
+	text-align: center;
+}
+.container.contact div{
+	font-size: 24px;
+	margin-bottom: 30px;
+}
+
+.container.contact li{
+	line-height: 24px;
+	font-size:16px;
+	color: #666;
+}
+
+/* 产品中心 */
+
+.container .product-tit{
+	width: 100px;
+	height: 30px;	
+	position: relative;
+}
+
+.container .product-tit .tit01{
+	display: inline-block;
+	width: 12px;
+	height: 30px;
+	background: #8b2727;
+}
+
+.container .product-tit .tit02{
+	font-size: 20px;	
+	position: absolute;
+	left: 20px;
+	bottom: 0px;
+}
+
+.container .product-box{
+	width: 1200px;
+	height: 274px;
+	margin-top: 20px;
+	margin-bottom: 60px;
+}
+.container .product-box>div{
+	width: 240px;
+	margin: 0 29px 0 29px;
+	float: left;
+	text-align: center;
+	border: 1px solid #fff;
+	padding-bottom: 5px;
+	transition: border 0.3s;
+	-moz-transition: border 0.3s;
+	-webkit-transition: border 0.3;
+	transition: background 0.3s;
+	-moz-transition: background 0.3s;
+	-webkit-transition: background 0.3;
+
+}
+.container .product-box>div:hover{
+	border: 1px solid #8b2727;/*cdcdcd ededed*/
+	background: #DD4E4E;
+	color:#fff;
+}
+
+.container .product-box .pic{
+	width: 240px;
+	height: 240px;
+	margin-bottom: 10px;
+}
+
+.container .product-more{
+	float: right;
+	color: #999;
+	margin-top: 5px;
+}
+.container .product-more:hover{
+	color: #E53C3C;
+}
+
+.skip input[type="text"]{
+	width: 20px;
+	text-align: center;
+	margin:0 5px 0;
+}
+
+form{
+	display: inline-block;
+}
+
+.container.page{
+	text-align: center;
+}
+.container.page>span{
+	display: inline-block;
+	margin: 0 30px 0;
+}
+
+.container.page a{
+	margin:0 5px 0;
+}
+
+.container.page a:hover{
+	color:#E54141;
+}
+
+
+/* 登录 */
+
+.container.one-page{
+	position: relative;
+	height: 660px;
+}
+
+.landing{
+	position: absolute;
+	padding-top:70px; 
+	margin-bottom: 300px;
+	left: 393px;
+	text-align: center;
+}
+
+.landing>span{
+	display: block;
+}
+
+.landing .tit{
+	font-size:24px;
+	color: #8b2727;
+	margin-bottom: 60px;
+}
+
+.landing input[type="text"],.landing input[type="password"]{
+	height: 30px;
+	width: 400px;
+	padding-left: 10px;
+}
+
+
+.landing .user,.landing .password{
+	margin-bottom: 15px;
+}
+
+.landing .remen{
+	float: left;
+}
+
+.landing a{
+	color: #C71B1B;
+}
+
+.landing a:hover{
+	text-decoration:underline
+}
+
+.landing input[type="submit"]{
+	width: 414px;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/* 找回密码 */
+.forget{
+	position: absolute;
+	padding-top:70px; 
+	text-align: center;
+	width: 1200px;
+}
+.forget>div{
+	display: inline-block;
+}
+.forget span{
+	display: block;
+}
+
+.forget .text{
+	text-align: right;
+}
+
+.forget .text span{
+	margin-bottom: 15px;
+}
+
+
+.forget .tit{
+	font-size:24px;
+	color: #8b2727;
+	margin-bottom: 60px;
+} 
+
+.forget input[type="text"]{
+	width: 214px;
+	height: 20px;
+}
+.forget .yzm input[type="text"]{
+	width: 100px;
+}
+
+.forget .yzm img{
+	margin-left: 34px;
+	float: right;
+}
+
+.forget input[type="submit"]{
+	width: 164px;
+	height: 35px;
+	margin-top: 50px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-size: 14px;
+}
+
+.forget .text-2{
+	text-align: left;
+}
+
+.forget .text-2 input[type="password"]{
+	width: 204px;
+	height: 20px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding-left: 10px;
+}
+
+.forget .text-2 input[type="submit"]{
+	width: 80px;
+}
+
+
+/* 注册 */
+.register{
+	text-align: center;
+	position: relative;
+}
+.register .text{
+	display: inline-block;
+	text-align: right;
+	margin-top: 50px;
+}
+
+.register .text>span{
+	display: block;
+	margin-bottom: 15px;
+}
+.register input[type="text"],.register input[type="password"]{
+	width: 209px;
+	height: 20px;
+	padding-left: 5px;
+}
+
+.register .yzm{
+	clear: both;
+	position: relative;
+}
+
+.register .yzm div{
+	position: absolute;
+	width: 14px;
+	height:14px;
+	background: url(../images/icon/notification.png) ;
+	top: 7px;
+	left: 188px;
+}
+
+.register .yzm input[type="text"]{
+	width: 95px;
+}
+
+.register .yzm img{
+	margin-left: 34px;
+	float: right;
+}
+
+.register .text select{
+	margin-right: 72px;
+	width: 145px;
+	height: 26px;
+}
+
+.register input[type="radio"]{
+	margin-left: 20px;
+}
+.register textarea{
+	float: right;
+	padding-left: 5px;
+}
+
+.register input[type="submit"]{
+	width: 209px;
+	height: 35px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 14px;
+}
+.register a{
+	color: #C71B1B;
+}
+.register a:hover{
+	text-decoration:underline
+}
+
+.register .remind{
+	height: 20x;
+	padding: 2px 10px;
+	background: #FFE1E1;
+	border: 1px solid #E54141;
+	position: absolute;
+	color: #E50000;
+	left: 760px;
+}
+
+.register .float-01{
+	top: 50px;	
+}
+
+.register .float-02{
+	top: 91px;	
+}
+.register .float-03{
+	top: 132px;	
+}
+.register .float-04{
+	top: 173px;	
+}
+.register .float-05{
+	top: 291px;	
+}
+.register .float-06{
+	top: 373px;	
+}
+.register .float-07{
+	top: 414px;	
+}
+.register .float-08{
+	top: 485px;	
+}
